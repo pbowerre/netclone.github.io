@@ -6,7 +6,7 @@
 body{
     font-family: Calibri;
     background: rgba(0, 0, 0, 0.718);
-
+    overflow-x: hidden;
 }
 
 /* Sign in page design */
@@ -285,7 +285,7 @@ footer .bottom ul a{
 .faqReply{
     width: 850px;
     /* border: 2px solid; */
-    padding: 5px;
+    padding: 30px;
 }
 .faqReply h2{
     font-size: 25pt;
@@ -335,6 +335,14 @@ footer .bottom ul a{
         overflow-y: scroll;
         padding: 7px;
     }
+
+    .faqReply .inputStart{
+        display: flex;
+        flex-direction: row;
+    }
+    .faqReply .inputStart input{
+        margin: 10px;
+    }
 }
 /* width */
 ::-webkit-scrollbar {
@@ -359,7 +367,6 @@ footer .bottom ul a{
     font-family: calibri;
   }
   .ready .inputStart{
-    display: flex;
     /* justify-content: space-around; */
     position: relative;
   }
