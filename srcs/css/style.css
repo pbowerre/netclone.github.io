@@ -190,9 +190,11 @@ footer .bottom ul a{
 }
 
 .content main .mainArea .actionTaken {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* display: block; */
+    letter-spacing: 3px;
 }
 .content main .mainArea .actionTaken .getStart{
     background: rgba(0, 0, 0, 0.718);
@@ -202,6 +204,7 @@ footer .bottom ul a{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
+    /* margin: 10px; */
 }
 
 .content main .mainArea .actionTaken .getStart::placeholder{
@@ -432,5 +435,5 @@ footer .bottom ul a{
     position: absolute;
     bottom: 0;
     left: 0;
-    
+
 }
