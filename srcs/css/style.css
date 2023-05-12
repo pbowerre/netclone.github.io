@@ -19,7 +19,7 @@ body{
     height: auto;
 }
 
-@media  screen and (min-width: 420px) {
+@media  screen and (max-width: 420px) {
     .containers{
         /* background: rgba(0, 0, 0, 0.67); */
         background: rgba(0, 0, 0, 0.718);   
