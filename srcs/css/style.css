@@ -411,20 +411,18 @@ footer .bottom ul a{
 .footers{
     background: rgba(0, 0, 0, 0.67);
     /* border: 2px solid #fff; */
-    
+    height: 100vh;
 }
-.footers footer{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    border: 2px solid #fff;
-    text-align: left;
-}
+
 .footers footer ul{
     list-style: none;
-    /* display: flex; */
-    /* flex-direction: row; */
 }
 .footers footer ul li{
+    margin: 10px;
+}
+.footers footer ul li a{
     /* display: inline-block; */
+    color: #fff;
+    font-size: 17px;
+
 }
