@@ -276,7 +276,7 @@ footer .bottom ul a{
     background: rgb(0, 8, 29);
     color: #fff;
     text-align: justify-all;
-    padding: 4.5rem;
+    padding: 4rem;
     /* margin: 0 auto; */
     display: flex;
     align-items: center;
@@ -285,7 +285,7 @@ footer .bottom ul a{
 .faqReply{
     width: 850px;
     /* border: 2px solid; */
-    padding: 30px;
+    /* padding: 30px; */
 }
 .faqReply h2{
     font-size: 25pt;
@@ -340,7 +340,7 @@ footer .bottom ul a{
         display: flex;
         flex-direction: row;
     }
-    .faqReply .inputStart input{
+    .faqReply .inputStart #get{
         margin: 10px;
     }
 }
