@@ -342,13 +342,6 @@ footer .bottom ul a{
     background: rgba(0, 0, 0, 0.675); 
     border-radius: 10px;
   }
-  
-  /* Handle on hover */
-
-  .ready{
-    /* display: flex;
-    flex-direction: column; */
-  }
   .ready p{
     font-size: 20px;
     font-weight: 500;
