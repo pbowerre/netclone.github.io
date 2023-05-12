@@ -276,7 +276,7 @@ footer .bottom ul a{
     background: rgb(0, 8, 29);
     color: #fff;
     text-align: justify-all;
-    padding: 4rem;
+    padding: 1rem;
     /* margin: 0 auto; */
     display: flex;
     align-items: center;
@@ -407,4 +407,7 @@ footer .bottom ul a{
 
 .ready .inputStart label > button:hover{
     background: #e50914cc;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.67);
 }
