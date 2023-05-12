@@ -414,9 +414,10 @@ footer .bottom ul a{
     
 }
 .footers footer{
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
+    border: 2px solid #fff;
 }
 .footers footer ul{
     list-style: none;
