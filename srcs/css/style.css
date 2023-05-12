@@ -426,5 +426,11 @@ footer .bottom ul a{
     /* display: inline-block; */
     color: #fff;
     font-size: 17px;
-
+}
+.footers footer b{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
 }
