@@ -411,12 +411,12 @@ footer .bottom ul a{
 .footers{
     background: rgba(0, 0, 0, 0.67);
     /* border: 2px solid #fff; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .footers footer{
-    display: block;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .footers footer ul{
     list-style: none;
