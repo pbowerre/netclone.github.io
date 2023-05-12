@@ -418,6 +418,7 @@ footer .bottom ul a{
     /* justify-content: center; */
     /* align-items: center; */
     border: 2px solid #fff;
+    text-align: left;
 }
 .footers footer ul{
     list-style: none;
