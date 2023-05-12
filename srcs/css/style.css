@@ -10,11 +10,6 @@ body{
 }
 
 /* Sign in page design */
-@media  screen and (max-width: 420px) {
-    .containers{
-        background: rgba(0, 0, 0, 0.67);
-    }
-}
 
 .containers{
     background: linear-gradient(230deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.98)), url('https://mebincdn.themebin.com/1664271579476.jpg');
@@ -23,6 +18,13 @@ body{
     background-position: center;
     height: auto;
 }
+
+@media  screen and (min-width: 420px) {
+    .containers{
+        background: rgba(0, 0, 0, 0.67);
+    }
+}
+
 .containers img{
     width: 180px;
     cursor: pointer;
