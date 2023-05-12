@@ -411,9 +411,11 @@ footer .bottom ul a{
 .footers{
     background: rgba(0, 0, 0, 0.67);
     /* border: 2px solid #fff; */
-    height: 100vh;
+    position: relative;
 }
-
+.footers footer{
+    position: relative;
+}
 .footers footer ul{
     list-style: none;
 }
