@@ -410,4 +410,5 @@ footer .bottom ul a{
 }
 .footer{
     background: rgba(0, 0, 0, 0.67);
+    display: flex;
 }
